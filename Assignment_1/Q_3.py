@@ -13,6 +13,7 @@ Subj_5 = input("EC :")
 #Total Obtained marks
 totalMarks = float(Subj_1) + float(Subj_2) + float(Subj_3) + float(Subj_4) + float(Subj_5)
 print("Total marks you got: " , totalMarks)
+print("The overall percentage is" , (float(totalMarks)/500)*100 , "%")
 
 #Individual subject percentage
 print("DSA : " , (float(Subj_1)/100)*100, "%" )

@@ -6,6 +6,7 @@
 # 7   8   9   10
 
 n = 1
+space = 5
 while n <=10:
     print(" "*space ,n ," "*space)
     n +=1

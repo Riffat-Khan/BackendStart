@@ -13,8 +13,10 @@ print(range)
 smallest = largest = list[0]
 
 for integer in list:
-    if integer >= largest: largest = integer
-    elif integer <= smallest: smallest = integer
+    if integer >= largest: 
+        largest = integer
+    elif integer <= smallest: 
+        smallest = integer
 
 range = largest - smallest
 print(range)

@@ -9,7 +9,11 @@ MaritalStatus = input("What's the marital status of the driver? married/unmarrie
 Gender = input("What's the gender of the driver? male/female :")
 Age = input("What's the age of the driver:")
 
-if MaritalStatus.lower() == "married": print("Eligible")
-elif MaritalStatus.lower() == "unmarried" and Gender.lower() == "male" and int(Age) > 30 : print("Eligible")
-elif MaritalStatus.lower() == "unmarried" and Gender.lower() == "female" and int(Age) > 25 : print("Eligible")
-else:print("The driver is not insured")
+if MaritalStatus.lower() == "married": 
+    print("Eligible")
+elif MaritalStatus.lower() == "unmarried" and Gender.lower() == "male" and int(Age) > 30 : 
+    print("Eligible")
+elif MaritalStatus.lower() == "unmarried" and Gender.lower() == "female" and int(Age) > 25 : 
+    print("Eligible")
+else:
+    print("The driver is not insured")

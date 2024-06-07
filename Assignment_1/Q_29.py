@@ -5,8 +5,17 @@
 #   4   5   6
 # 7   8   9   10
 
-n = 1
-space = 5
-while n <=10:
-    print(" "*space ,n ," "*space)
-    n +=1
+number = 1
+count = 1
+while count <=4:
+    print(" "*(4-count) , end="") 
+    contain = 1
+    while contain <=count:
+        print(number , end=" ")
+        number+=1
+        contain +=1
+    count +=1
+    print("\n")
+
+        
+        

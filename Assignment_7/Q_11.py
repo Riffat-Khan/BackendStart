@@ -4,18 +4,13 @@
 # string.
 
 def AlphabetSoup(string):
-    for i in range(len(string)-1):
-        j = i+1
-        for j in range(len(string)):
-            if string[i] < string[j]:
-                temp = string[i] 
-                temp_2 = string[j]
+    array = list(string)
+    for i in range(len(array)-1):
+        for j in range(i+1 , len(string)):
+            if array[i] > array[j]:
+                array[i] , array[j] = array[j] , array[i]
 
-                string[i] = temp_2
-                string[j] = temp
-                i+=1
-    print(string)
+    sortedString = "".join(array)
+    print(sortedString)
 
 AlphabetSoup(string="hello")
-
-

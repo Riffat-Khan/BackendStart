@@ -10,7 +10,7 @@ while rem > 0:
     rem= rem//2
 
 while len(array) > 0:
-    print(array.pop())
+    print(array.pop() , end = " ")
 
 
 

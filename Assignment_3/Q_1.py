@@ -6,7 +6,7 @@
 # For example, if s is 'a2b3c' it returns 5"""
 
 def sumDigits(s):
-    number = "12345678"
+    number = "123456789"
 
     sum =0
     for char in s:

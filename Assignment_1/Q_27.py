@@ -28,4 +28,5 @@ elif int(workHR) > 40:
     extraSalary = extra * (float(rateHR)/2)
     Salary = extraSalary + (int(workHR) * float(rateHR))
     print("Salary is $", float(Salary))
-else: print("Invalid")
+else: 
+    print("Invalid")
